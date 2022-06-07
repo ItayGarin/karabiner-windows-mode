@@ -86,5 +86,9 @@ local k = import 'lib/karabiner.libsonnet';
            k.input('z', ['control']),
            k.outputKey('z', ['command']),
            ),
+    k.rule('L (Ctrl)',
+           k.input('l', ['control']),
+           k.outputKey('l', ['command']),
+           ),
   ]
 }
