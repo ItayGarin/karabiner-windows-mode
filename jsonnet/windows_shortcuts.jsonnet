@@ -73,18 +73,18 @@ local k = import 'lib/karabiner.libsonnet';
     k.rule('W (Ctrl)',
            k.input('w', ['control']),
            k.outputKey('w', ['command']),
-           k.condition('unless', bundle.standard, file_paths.standard)),
+           ),
     k.rule('X (Ctrl)',
            k.input('x', ['control']),
            k.outputKey('x', ['command']),
-           k.condition('unless', bundle.standard, file_paths.standard)),
+           ),
     k.rule('Y (Ctrl)',
            k.input('y', ['control']),
            k.outputKey('y', ['command']),
-           k.condition('unless', bundle.standard, file_paths.standard)),
+           ),
     k.rule('Z (Ctrl)',
            k.input('z', ['control']),
            k.outputKey('z', ['command']),
-           k.condition('unless', bundle.standard, file_paths.standard))
+           ),
   ]
 }
