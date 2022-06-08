@@ -37,7 +37,7 @@ local k = import 'lib/karabiner.libsonnet';
     k.rule('C (Ctrl)',
            k.input('c', ['left_control']),
            k.outputKey('c', ['command']),
-           ),
+           k.condition('unless', bundle.standard)),
     k.rule('F (Ctrl)',
            k.input('f', ['control']),
            k.outputKey('f', ['command']),
@@ -89,6 +89,10 @@ local k = import 'lib/karabiner.libsonnet';
     k.rule('L (Ctrl)',
            k.input('l', ['control']),
            k.outputKey('l', ['command']),
+           ),
+    k.rule('Option+Tab (AltTab)',
+           k.input('tab', ['option']),
+           k.outputKey('tab', ['command']),
            ),
   ]
 }
