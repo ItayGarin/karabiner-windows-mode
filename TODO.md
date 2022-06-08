@@ -3,6 +3,8 @@
 # Karabiner
 
 - don't bind ctrl+c/d/r/a/e when in VsCode and Terminal
+- Ctrl-Enter -> Command-Enter (sending mails and messages)
+- \ in hebrew doesn't work
 
 ## VsCode
 

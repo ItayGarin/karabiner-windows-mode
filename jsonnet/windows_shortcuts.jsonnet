@@ -94,5 +94,9 @@ local k = import 'lib/karabiner.libsonnet';
            k.input('tab', ['option']),
            k.outputKey('tab', ['command']),
            ),
+    k.rule('Enter (Ctrl)',
+           k.input('return_or_enter', ['control']),
+           k.outputKey('return_or_enter', ['command']),
+           ),
   ]
 }
