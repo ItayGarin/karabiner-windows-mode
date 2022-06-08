@@ -109,7 +109,7 @@
          ]
       },
       {
-         "description": "A (Ctrl)",
+         "description": "A (Ctrl) $",
          "manipulators": [
             {
                "conditions": [
@@ -157,7 +157,7 @@
          ]
       },
       {
-         "description": "C (Ctrl)",
+         "description": "C (Ctrl) $",
          "manipulators": [
             {
                "conditions": [
@@ -205,7 +205,7 @@
          ]
       },
       {
-         "description": "F (Ctrl)",
+         "description": "F (Ctrl) $",
          "manipulators": [
             {
                "conditions": [
@@ -334,7 +334,7 @@
          ]
       },
       {
-         "description": "R (Ctrl)",
+         "description": "R (Ctrl) $",
          "manipulators": [
             {
                "conditions": [
