@@ -692,6 +692,54 @@
                "type": "basic"
             }
          ]
+      },
+      {
+         "description": "Home",
+         "manipulators": [
+            {
+               "from": {
+                  "key_code": "home",
+                  "modifiers": {
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "left_arrow",
+                     "modifiers": [
+                        "command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "End",
+         "manipulators": [
+            {
+               "from": {
+                  "key_code": "end",
+                  "modifiers": {
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "right_arrow",
+                     "modifiers": [
+                        "command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
       }
    ],
    "title": "Windows Shortcuts (itayg)"

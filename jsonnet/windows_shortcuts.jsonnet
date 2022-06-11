@@ -98,5 +98,11 @@ local k = import 'lib/karabiner.libsonnet';
            k.input('return_or_enter', ['control']),
            k.outputKey('return_or_enter', ['command']),
            ),
+    k.rule('Home',
+           k.input('home'),
+           k.outputKey('left_arrow', ['command'])),
+    k.rule('End',
+           k.input('end'),
+           k.outputKey('right_arrow', ['command']))
   ]
 }
